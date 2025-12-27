@@ -4,7 +4,7 @@
 # b = a
 # a = 8
 # print(b)
-from itertools import count
+
 
 # каскадное присваивание
 # a = b = c = 0
