@@ -97,28 +97,31 @@
 # #======================================
 # # 8. Дополнительные задания
 # #======================================
-user_id = 1001
-is_active = True
-max_retries = 3
-response_time_sec = 0.45
-error_message = "Connection timeout"
+username = "sergey"
+age = 36
+height_m = 1.81
+is_student = False
+score = 95.5
 # Вывод значений и типов
-print(user_id)
-print(type(user_id))
+print(username)
+print(type(username))
 
-print(is_active)
-print(type(is_active))
+print(age)
+print(type(age))
 
-print(max_retries)
-print(type(max_retries))
+print(height_m)
+print(type(height_m))
 
-print(response_time_sec)
-print(type(response_time_sec))
+print(is_student)
+print(type(is_student))
 
-print(error_message)
-print(type(error_message))
+print(score)
+print(type(score))
 
 # Переменная с русским именем
-переменная = 10
-print(переменная)
-print(type(переменная))
+результат = 42
+print(результат)
+print(type(результат))
+
+result = f"Age: {25}"
+print(result)
