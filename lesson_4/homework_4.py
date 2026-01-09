@@ -97,7 +97,7 @@ right_clean = "Python ".rstrip() # Удалить пробелы справа в
 print(repr(right_clean)) # → 'Python'
 
 both_clean = " Python ".strip() # Удалить пробелы с обеих сторон в строке " Python "
-print(repr(right_clean)) # → 'Python'
+print(repr(both_clean)) # → 'Python'
 
 # #================================================
 # # 10. Дополнительное задание
